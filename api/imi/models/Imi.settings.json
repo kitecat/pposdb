@@ -1,0 +1,51 @@
+{
+  "connection": "default",
+  "collectionName": "students",
+  "info": {
+    "name": "imi",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "surname": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "patronymic": {
+      "type": "string"
+    },
+    "payed_fee": {
+      "type": "boolean"
+    },
+    "subdivision": {
+      "type": "string"
+    },
+    "group": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "dorm": {
+      "type": "boolean"
+    },
+    "livesInCity": {
+      "type": "boolean"
+    },
+    "achievements": {
+      "type": "text"
+    }
+  }
+}
